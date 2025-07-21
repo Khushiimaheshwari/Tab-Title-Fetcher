@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html{
+    width: 100%;
+    min-height: 50%;
+}
+
+body {
+    width: 210px;
+    font-family: 'Inter', sans-serif;
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.glass-effect {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glow-effect {
+    box-shadow: 0 0 20px rgba(102, 126, 234, 0.3);
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+.container{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.image{
+    width: 20%;
+}
+
+.imageContainer{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+}
+
+#getTitleBtn{
+    margin: 10px;
+}
+
+.text{
+    text-align: center;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+}
+
+.pulse-glow {
+    animation: pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse-glow {
+    0%, 100% { 
+    box-shadow: 0 0 20px rgba(236, 72, 153, 0.4);
+    }
+    50% { 
+    box-shadow: 0 0 30px rgba(236, 72, 153, 0.6), 0 0 40px rgba(167, 243, 208, 0.3);
+    }
+}
