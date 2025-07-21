@@ -4,7 +4,7 @@ A stylish Chrome Extension that fetches and displays the **title of the currentl
 
 ## Demo
 
-<img width="489" height="554" alt="image" src="https://github.com/user-attachments/assets/ca7963ac-8316-4ff7-935f-933d452394a6" />
+<img width="289" height="354" alt="image" src="https://github.com/user-attachments/assets/ca7963ac-8316-4ff7-935f-933d452394a6" />
 
 ## Features
 
